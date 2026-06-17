@@ -1,7 +1,6 @@
 const words = [
 "Software Engineer",
 "Web Developer",
-"AI Enthusiast"
 ];
 
 /* TYPING EFFECT */
