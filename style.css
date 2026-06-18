@@ -384,6 +384,7 @@ display:none;
 /* CURSOR */
 
 .cursor{
+
 width:25px;
 
 height:25px;
@@ -400,13 +401,20 @@ top:0;
 
 pointer-events:none;
 
-transform:
-translate(-50%,-50%);
+transform:translate(-50%,-50%);
 
+/* SPEED */
+transition:0.02s linear;
+transition:
+left .03s linear,
+top .03s linear,
+transform .2s ease;
 box-shadow:
-0 0 20px #6c63ff;
+0 0 20px #6c63ff,
+0 0 50px rgba(108,99,255,.8);
 
 z-index:9999;
+
 }
 
 /* MOBILE */
